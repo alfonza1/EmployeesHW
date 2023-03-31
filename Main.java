@@ -9,5 +9,6 @@ public class Main {
         Person employee2 = new HourlyEmployee("Alfonzas Imaginary Son",40,65.0);
         System.out.println(employee2);
         System.out.println(employee2.calculatePay());
+
     }
 }
