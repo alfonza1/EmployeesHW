@@ -10,8 +10,8 @@ public class HourlyEmployee extends Employees {
         super(name);
         this.hoursWorked = hoursWorked;
         this.rate = rate;
-        this.name = name;
-        this.id = getId();
+        this.name = getName();
+        this.id =getId();
     }
 
     @Override

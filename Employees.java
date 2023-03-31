@@ -10,7 +10,7 @@ package labs.employees;
         public Employees(String name) {
             super(name);
            id = ++uniqueId;
-           this.name = name;
+           this.name = getName();
         }
 
         @Override

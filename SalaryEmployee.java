@@ -8,7 +8,7 @@ public class SalaryEmployee extends Employees {
     public SalaryEmployee(String name,double salary) {
         super(name);
         this.salary = salary;
-        this.name = name;
+        this.name = getName();
         this.id = getId();
     }
     @Override
